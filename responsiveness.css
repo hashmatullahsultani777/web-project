@@ -28,7 +28,7 @@
         width: 100%;
     }
 
-    .hamburger { display: flex; }
+   
 
     #logo-div { width: 50px; height: 50px; }
     #logo-id { font-size: 32px; }
@@ -173,4 +173,54 @@
     .footer-store-link { width: 90px; }
     .Address-div { flex-wrap: wrap; }
     #link-address-paragraph { font-size: 10px; }
+}
+
+
+/* register page */
+@media (max-width: 768px) {
+    .form-part { width: 380px; }
+    .register-input { width: 290px; }
+}
+
+@media (max-width: 480px) {
+    .form-part { width: 310px; }
+    .register-input { width: 240px; }
+}
+
+@media (max-width: 380px) {
+    .form-part { width: 260px; }
+    .register-input { width: 200px; }
+    .register-lable { font-size: 15px; }
+}
+
+@media (max-width: 300px) {
+    .form-part { width: 230px; }
+    .register-input { width: 175px; height: 40px; }
+    .register-lable { font-size: 13px; }
+    .register-button { font-size: 14px; }
+}
+
+/* login page */
+
+@media (max-width: 768px) {
+    .login-form { width: 380px; }
+    .login-input { width: 290px; }
+}
+
+@media (max-width: 480px) {
+    .login-form { width: 310px; }
+    .login-input { width: 240px; }
+}
+
+@media (max-width: 380px) {
+    .login-form { width: 260px; }
+    .login-input { width: 200px; }
+    .login-lable { font-size: 15px; }
+}
+
+@media (max-width: 300px) {
+    .login-form { width: 230px; }
+    .login-input { width: 175px; height: 40px; }
+    .login-lable { font-size: 13px; }
+    .login-button { font-size: 14px; }
 }
