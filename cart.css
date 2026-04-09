@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'pashto-font';
+    src: url(E:\majalla.ttf)
+    format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+body{
+    font-family: 'pashto-font';
+}
+
+.cart-section{
+    padding: 50px;
+}
+
+.cart-parent-div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.cart-div{
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px,1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.cart-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #E0F2F1;
+
+    
+}
+.product-image{
+    width: 100%;
+    max-width: 240px;
+    height: 100%;
+    max-height: 150px;
+    padding: 10px;
+    
+}
+.cart-items img{
+    border-radius: 25px;
+}
+
+.details-div{
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 15px 15px 15px;
+    border-radius: 20px;
+}
+
+.details-div h1{
+    color: #00695C;
+    font-size: 30px;
+    font-weight: 600;
+}
+.details-div p{
+    color: #00695C;
+    font-size: 22px;
+    text-align: center;
+}
+.options-div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.remove-button{
+    padding: 12px 20px;
+    border-radius: 25px;
+    background-color: #00695C;
+    color: #E0F2F1;
+    border: none;
+}
+.quantity-div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.plus-button{
+    width: 35px;
+    height: 40px;
+    margin-right: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+    background-color: #E0F2F1;
+    cursor: pointer;
+}
+.minus-button{
+    width: 35px;
+    height: 40px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+    background-color: #E0F2F1;
+    cursor: pointer;
+}
+.quantiy-input{
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+    border: 1px #E0F2F1 solid;
+    text-align: right;
+    direction: rtl;
+    text-indent: 2px;
+    font-size: 20px;
+
+}
+.cart-summary{
+    flex: 1;
+    border-radius: 15px;
+    background-color: #00695C;
+}
