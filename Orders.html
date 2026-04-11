@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>Document</title>
 
-      <link rel="stylesheet" href="style.css">
-       <link rel="stylesheet" href="responsiveness.css">
-      <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiveness.css">
+    <link rel="stylesheet" href="orders.css">
 </head>
 <body>
 
-   
     
     <header>
         <nav class="nav-div">
@@ -38,141 +37,81 @@
         </nav>
     </header>
 
+    <section class="orders-section">
+
+    <h1 class="orders-title">اډرونه </h1>
+
+    <div class="orders-parent-div">
+
+        <div class="order-div">
+
+            <div class="order-header">
+
+                 <p class="order-number">اډر: #1001</p>
+                <p class="order-date">2026-04-01</p>
+
+                <span class="order-status" id="status-delivered">سپارل شوی</span>
+
+            </div>
+
+            <div class="order-body">
+
+                <img class="order-image" src="images/products/men-chino-pants-beige.jpg">
+
+                <div class="order-details">
+                    <h3>مردانه نخی پتلونان</h3>
+                    <p>800AF</p>
+                    <p>شمیر: 1</p>
+                </div>
+
+                
+                <div class="order-action">
+
+                    <p class="order-total">مجموعه: 800AF</p>
+
+                    <button class="cancel-button">لغوه کړی</button>
+
+                </div>
+
+            </div>
 
 
-    <section class="cart-section">
+            <div class="order-review">
 
-        <h1>کارټ</h1>
+                <div class="stars-div">
+                    <p class="review-prompt">دا محصول وارزوی</p>
+    
+                     <div class="star-rating">
+                       <span class="star">☆</span>
+                       <span class="star">☆</span>
+                       <span class="star">☆</span>
+                       <span class="star">☆</span>
+                        <span class="star">☆</span>
+                      </div>
 
-        <div class="cart-parent-div">
+                    </p>  
 
-            <div class="cart-div">
-
-                <div class="cart-items">
-                    
-                    <div class="image-div">
-                    <img class="product-image" src="images/products/men-chino-pants-beige.jpg">
-                    </div>
+                     <p class="rating-number">5 / 5</p>
+                </div>     
                      
-                    <div class="details-div">
-
-                        <h3 class="title-p">مردانه نخی پتلونان</h3>
-                        <p>800AF</p>
-
-                        <div class="options-div">
-
-                            <div class="quantity-div">
-
-                                <button class="minus-button">-</button>
-                                <input class="quantiy-input" type="number" value="1" >
-                                <button class="plus-button">+</button>
-
-                            </div>
-
-                            <button class="remove-button">ایسته یی کی</button>
-                        </div>
-
-                    </div>
-
+                <div class="review-div">
+                      <textarea class="review-textarea" placeholder="خپل نظر ولیکی..."></textarea>
+                      <button class="review-submit">نظر وسپاری</button>
                 </div>
 
-
-                <div class="cart-items">
-                    
-                    <div class="image-div">
-                    <img class="product-image" src="images/products/black-2-slot-toaster.jpg">
-                    </div>
-
-                    <div class="details-div">
-
-                        <h3 class="title-p">د روغانی پخولو دیګ</h3>
-                        <p>1200AF</p>
-
-                        <div class="options-div">
-
-                            <div class="quantity-div">
-
-                                <button class="minus-button">-</button>
-                                <input class="quantiy-input" type="number" value="1">
-                                <button class="plus-button">+</button>
-
-                            </div>
-
-                            <button class="remove-button">ایسته یی کی</button>
-                        </div>
-
-                    </div>
-
                 </div>
-
-
-
-                 <div class="cart-items">
-                    
-                    <div class="image-div">
-                    <img class="product-image" src="images/products/athletic-cotton-socks-6-pairs.jpg">
-                     </div>
-                    <div class="details-div">
-
-                        <h3 class="title-p">شپږ دانی ورزشی جرابی</h3>
-                        <p>180AF</p>
-
-                        <div class="options-div">
-
-                            <div class="quantity-div">
-
-                                <button class="minus-button">-</button>
-                                <input class="quantiy-input" type="number" value="1">
-                                <button class="plus-button">+</button>
-
-                            </div>
-
-                            <button class="remove-button">ایسته یی کی</button>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-               
-            </div>
-
-            
-            <div class="cart-summary"> 
-                    
-
-               <div class="cart-summary-div">
-
-                <h2>د کارټ خلاصه</h2>
-
-                <div class="summary-item">
-                     
-                    <p class="total-items">۳ توکی</p>
-                    <p class="total-price">2180AF</p>
-                    
-                </div>
-
-
-               <button class="checkout-button">
-                    اډر یی کی 
-               </button>
-
-                <a href="products.html" class="continue-shopping">خریداري ته ادامه ورکی</a>
-
-            </div>
-
-            </div>
 
 
         </div>
 
-         
-        
-    </section>
 
 
-        
+    </div>
+
+</section>
+
+
+    
     <footer id="footer">
 
         <div><p id="footer-paragraph">موږ سره اړیکه ونیسئ</p></div>
@@ -218,9 +157,5 @@
 
     </footer>
 
-
-
-
-    
 </body>
 </html>

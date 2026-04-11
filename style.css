@@ -5,7 +5,7 @@
 @font-face {
     font-family: 'pashto-font';
     src: url(E:\majalla.ttf)
-    format('woff2');
+    format(truetype);
     font-weight: normal;
     font-style: normal;
     
@@ -340,6 +340,7 @@ header{
     font-family: 'pashto-font';
     text-decoration: none;
     font-size: 16px;
+    border: none;
 }
 
 .cart-button {
