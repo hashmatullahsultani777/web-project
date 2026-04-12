@@ -289,7 +289,7 @@
 
 @media (max-width: 380px) {
     .details-div h3 { font-size: 16px; }
-    .details-div p { font-size: 14px; }
+    .details-div p { font-size: 14px;  }
     .total-items, .total-price { font-size: 18px; }
     .checkout-button { font-size: 15px; }
      .remove-button { padding: 6px 10px; font-size: 11px; }
@@ -301,10 +301,26 @@
     .checkout-button, .continue-shopping { font-size: 13px; }
 }
 
+
+/* orders page*/
+
+
 @media (max-width: 480px) {
     .star { font-size: 20px; -webkit-text-stroke: 1.5px #00695C; }
+    
 }
 
 @media (max-width: 380px) {
     .star { font-size: 16px; -webkit-text-stroke: 1px #00695C; }
+    .review-textarea{margin-right: 12px;}
+    .order-image{
+      padding-top: 10px;
+    }
+    
+}
+
+@media (max-width: 350px){
+  .order-image{
+    padding-top: 15px;
+  }
 }

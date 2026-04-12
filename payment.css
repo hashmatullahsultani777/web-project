@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'pashto-font';
+    src: url(E:\majalla.ttf)
+    format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.payment-section{
+    padding: 20px 0px 40px 0px;
+}
+.payment-header{
+    color:  #00695C;
+    direction: rtl;
+    text-align: center;
+}
+.payment-parent-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-summary{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+      width: 100%;
+  max-width: 600px;
+
+   
+}
+
+.order-summary h2{
+    color: #00695C;
+    text-align: center;
+    direction: rtl;
+}
+
+.summary-item{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-around;
+    padding: 10px 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);;
+    border-radius: 20px;
+    
+}
+
+.summary-item img{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    flex: 1;
+
+}
+
+.summary-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    max-width: 400px;
+    border-radius: 20px;
+    background-color: #E0F2F1;;
+    
+}
+
+.summary-details h3{
+    color: #00695C;
+    text-align: center;
+    direction: rtl;
+}
+.summary-details p{
+    color: #00695C;
+    font-size: 20px;
+    text-align: center;
+}
+.summary-total{
+    margin-top: 10px;
+    width: 100%;
+    max-width: 600px;
+    border: none;
+    border-radius: 50px;
+    background-color: #00695C;
+
+}
+.summary-total p{
+    color: #E0F2F1;
+    font-size: 20px;
+    font-weight: 600;
+     direction: rtl;
+    text-align: center;
+    padding: 7px 10px;
+    
+}
+
+.payment-method{
+    display: flex;
+    flex-direction: column;
+    background-color: #E0F2F1;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);;
+    width: 100%;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+.method-title{
+    color: #00695C;
+    text-align: center;
+    direction: rtl;
+    padding: 10px;
+}
+
+.method-options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.method-label{
+    color: #00695C;
+    font-size: 20px;
+}
+
+.confirm-button{
+    padding: 10px 12px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #E0F2F1;
+    background-color: #00695C;
+    border: none;
+}
+.confirm-button:hover{
+    background-color: #E0F2F1;
+    color: #00695C;
+    border: 1px solid #00695C;
+}
+.confirmation-message{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.confirmation-message p{
+    font-size: 20px;
+    color: #00695C;
+    text-align: center;
+    direction: rtl;
+}
+
+.link-to-orders{
+    color: #00695C;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    direction:rtl;
+    margin-bottom: 10px;
+}
+.confirmation-message a:hover{
+    text-decoration: underline;
+
+}
