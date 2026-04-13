@@ -285,6 +285,7 @@
     .image-div{flex: 1; }
     .details-div{flex: 3;}
     .remove-button { padding: 6px 10px; font-size: 11px; }
+
 }
 
 @media (max-width: 380px) {
