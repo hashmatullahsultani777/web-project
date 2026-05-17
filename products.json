@@ -1,0 +1,180 @@
+[
+  {
+    "image": "images/products/6-piece-white-dinner-plate-set.jpg",
+    "title": "شپږ دانی د غابونو سیټ",
+    "ratingImage": "images/ratings/rating-40.png",
+    "ratingCount": "۳۷",
+    "price": "120AF"
+  },
+  {
+    "image": "images/products/electric-glass-and-steel-hot-water-kettle.webp",
+    "title": "برقی ښیښیی ترموز او د ابو تودونکی",
+    "ratingImage": "images/ratings/rating-50.png",
+    "ratingCount": "۸۴۶",
+    "price": "500AF"
+  },
+  {
+    "image": "images/products/intermediate-composite-basketball.jpg",
+    "title": "د باسکیټبال توپ",
+    "ratingImage": "images/ratings/rating-40.png",
+    "ratingCount": "۱۲۷",
+    "price": "150AF"
+  },
+  {
+    "image": "images/products/floral-mixing-bowl-set.jpg",
+    "title": "د ګلداره پیالو سیټ",
+    "ratingImage": "images/ratings/rating-50.png",
+    "ratingCount": "۶۷۹",
+    "price": "240AF"
+  },
+  {
+    "image": "images/products/liquid-laundry-detergent-plain.jpg",
+    "title": "د کالو پریولولو شامپو",
+    "ratingImage": "images/ratings/rating-45.png",
+    "ratingCount": "۳۰۵",
+    "price": "100AF"
+  },
+  {
+    "image": "images/products/coffeemaker-with-glass-carafe-black.jpg",
+    "title": "د قهوی جوړولو ماشین",
+    "ratingImage": "images/ratings/rating-45.png",
+    "ratingCount": "۱۲۱۱",
+    "price": "1500AF"
+  },
+  {
+    "image": "images/products/round-airtight-food-storage-containers.jpg",
+    "title": "د وچی میوی د ساتلو لپاره لوښی",
+    "ratingImage": "images/ratings/rating-40.png",
+    "ratingCount": "۱۲۶",
+    "price": "550AF"
+  },
+  {
+    "image": "images/products/countertop-blender-64-oz.jpg",
+    "title": "د میوو اوبه کولو برقی جوسر",
+    "ratingImage": "images/ratings/rating-40.png",
+    "ratingCount": "۳",
+    "price": "3000AF"
+  },
+  {
+    "image": "images/products/women-knit-ballet-flat-black.jpg",
+    "title": "زنانه کښته بوټونه",
+    "ratingImage": "images/ratings/rating-40.png",
+    "ratingCount": "۳۲۶",
+    "price": "280AF"
+  },
+  {
+    "image": "images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg",
+    "title": "د لویانو لپاره وړین یخنکاکونه",
+    "ratingImage": "images/ratings/rating-50.png",
+    "ratingCount": "۲۱۹۷",
+    "price": "120AF"
+  },
+  {
+    "image": "images/products/men-chino-pants-beige.jpg",
+    "title": "مردانه نخی پتلونان",
+    "ratingImage": "images/ratings/rating-45.png",
+    "ratingCount": "۹۰۱۷",
+    "price": "800AF"
+  },
+  {
+    "image": "images/products/athletic-cotton-socks-6-pairs.jpg",
+    "title": "شپږ جوړی ورزشی جرابی",
+    "ratingImage": "images/ratings/rating-45.png",
+    "ratingCount": "۸۷",
+    "price": "180AF"
+  },
+  {
+    "image": "images/products/black-2-slot-toaster.jpg",
+    "title": "د روغانی پخولو دیګ",
+    "ratingImage": "images/ratings/rating-50.png",
+    "ratingCount": "۲۱۹۷",
+    "price": "1200AF"
+  },
+  {
+    "image": "images/products/backpack.jpg",
+    "title": "د سفر لپاره مناسبه د وړلو بسته",
+    "ratingImage": "images/ratings/rating-45.png",
+    "ratingCount": "۷۸",
+    "price": "650AF"
+  },
+  {
+    "image": "images/products/men-golf-polo-t-shirt-blue.jpg",
+    "title": "شین رنګ بی لستوڼو یخنکاک",
+    "ratingImage": "images/ratings/rating-45.png",
+    "ratingCount": "۴۲۰",
+    "price": "250AF"
+  },
+  {
+    "image": "images/products/men-cozy-fleece-zip-up-hoodie-red.jpg",
+    "title": "د نارینو ځنځیر لرونکی انګیا",
+    "ratingImage": "images/ratings/rating-45.png",
+    "ratingCount": "۳۱۵۰",
+    "price": "350AF"
+  },
+  {
+    "image": "images/products/cotton-bath-towels-teal.webp",
+    "title": "وړین او پاسته ټیولنه",
+    "ratingImage": "images/ratings/rating-45.png",
+    "ratingCount": "۹۳",
+    "price": "180AF"
+  },
+  {
+    "image": "images/products/men-athletic-shoes-green.jpg",
+    "title": "د نارینو ورزشی بوټونه",
+    "ratingImage": "images/ratings/rating-50.png",
+    "ratingCount": "۲۳۴",
+    "price": "950AF"
+  },
+  {
+    "image": "images/products/women-french-terry-fleece-jogger-camo.jpg",
+    "title": "د زنانو ورزشی پتلون",
+    "ratingImage": "images/ratings/rating-45.png",
+    "ratingCount": "۸۹",
+    "price": "450AF"
+  },
+  {
+    "image": "images/products/non-stick-cooking-set-15-pieces.webp",
+    "title": "د آشپزی کولو د کړایانو سیټ",
+    "ratingImage": "images/ratings/rating-45.png",
+    "ratingCount": "۵۱۱",
+    "price": "2500AF"
+  },
+  {
+    "image": "images/products/6-piece-non-stick-baking-set.webp",
+    "title": "د کیک جوړولو لوښو سیټ",
+    "ratingImage": "images/ratings/rating-45.png",
+    "ratingCount": "۶۲",
+    "price": "900AF"
+  },
+  
+  {
+    "image": "images/products/men-navigator-sunglasses-brown.jpg",
+    "title": "د لمر ضد نصواری عینکی",
+    "ratingImage": "images/ratings/rating-40.png",
+    "ratingCount": "۴۷",
+    "price": "80AF"
+  },
+  {
+    "image": "images/products/variations/men-chino-pants-black.jpg",
+    "title": "مردانه یی تور پتلونان",
+    "ratingImage": "images/ratings/rating-45.png",
+    "ratingCount": "۱۰۵۰",
+    "price": "800AF"
+  },
+  {
+    "image": "images/products/men-cozy-fleece-zip-up-hoodie-red.jpg",
+    "title": "د نارینو ځنځیر لرونکی انګیا",
+    "ratingImage": "images/ratings/rating-45.png",
+    "ratingCount": "۳۱۵۰",
+    "price": "350AF"
+  },
+  {
+    "image": "images/products/electric-glass-and-steel-hot-water-kettle.webp",
+    "title": "برقی ښیښیی ترموز او د ابو تودونکی",
+    "ratingImage": "images/ratings/rating-50.png",
+    "ratingCount": "۸۴۶",
+    "price": "500AF"
+  }
+]
+
+
