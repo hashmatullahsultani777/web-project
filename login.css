@@ -47,13 +47,13 @@
 }
 
 
-.login-lable{
+.email-lable{
  font-size: 17px;
      padding-bottom: 5px;
      color: #E0F2F1;
 }
 
-.login-input{
+.email-input{
     background-color: #E0F2F1;
     width: 100%;
     padding: 12px;
@@ -69,6 +69,28 @@
     direction: ltr;
 }
 
+.password-lable{
+     font-size: 17px;
+     padding-bottom: 5px;
+     color: #E0F2F1;
+}
+
+.password-input{
+     background-color: #E0F2F1;
+    width: 100%;
+    padding: 12px;
+    height: 50px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    inline-size: none;
+    border: none;
+    text-indent: 10px;
+    font-size: 15px;
+    color: black;
+    text-align: right;
+    direction: ltr;
+   
+}
 .login-button{
      margin-top: 10px;
     padding: 10px 23px 10px 23px;

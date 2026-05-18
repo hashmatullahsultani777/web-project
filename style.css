@@ -516,3 +516,53 @@ header{
     border-radius: 5px;
     
 }
+
+.menu-icon{
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 22px;
+
+}
+.menu-icon span{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+}
+@media(max-width: 768px){
+
+    .menu-icon{
+        display: flex;
+    }
+
+    .pages-div{
+
+        position: absolute;
+        top: 90px;
+        left: 0;
+        width: 100%;
+
+        background-color: #00695C;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        padding: 20px 0;
+
+        display: none;
+    }
+
+    .pages-div.show-menu{
+        display: flex;
+    }
+
+    .nav-div{
+        position: relative;
+    }
+
+}

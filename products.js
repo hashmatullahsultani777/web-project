@@ -2,13 +2,14 @@
 
 let parent_product_div = document.querySelector('.product-parent-div');
 
-fetch("products.json")
-.then(res=> res.json())
-.then(products_array => {
 
+async function load_products(){
+    let response  = await fetch("products.json")
+    let products_array = await response.json();
     Render_products(products_array);
-});
+}
 
+load_products();
 function Render_products(products_array){
 
     products_array.forEach(product => {
