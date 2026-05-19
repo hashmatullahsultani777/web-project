@@ -99,3 +99,4 @@ function Buy_Now(product){
     window.location.href = "cart.html";
     
 }
+
