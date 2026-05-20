@@ -347,8 +347,6 @@ question_aaray.forEach((questions)=>{
 
 });
 
-
-
 questionContainer.append(question_list);
 
 
